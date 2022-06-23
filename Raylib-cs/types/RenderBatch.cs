@@ -48,39 +48,39 @@ namespace Raylib_cs
         /// <summary>
         /// Number of elements in the buffer (QUADS)
         /// </summary>
-        public int elementCount;
+        public int ElementCount;
 
         /// <summary>
         /// Vertex position (XYZ - 3 components per vertex) (shader-location = 0)
         /// </summary>
-        public float* vertices;
+        public float* Vertices;
 
         /// <summary>
         /// Vertex texture coordinates (UV - 2 components per vertex) (shader-location = 1)
         /// </summary>
-        public float* texcoords;
+        public float* Texcoords;
 
         /// <summary>
         /// Vertex colors (RGBA - 4 components per vertex) (shader-location = 3)
         /// </summary>
-        public byte* colors;
+        public byte* Colors;
 
         /// <summary>
         /// Vertex indices (in case vertex data comes indexed) (6 indices per quad)<br/>
         /// unsigned int* for GRAPHICS_API_OPENGL_11 or GRAPHICS_API_OPENGL_33<br/>
         /// unsigned short* for GRAPHICS_API_OPENGL_ES2
         /// </summary>
-        public void* indices;
+        public void* Indices;
 
         /// <summary>
         /// OpenGL Vertex Array Object id
         /// </summary>
-        public uint vaoId;
+        public uint VaoId;
 
         /// <summary>
         /// OpenGL Vertex Buffer Objects id (4 types of vertex data)
         /// </summary>
-        public fixed uint vboId[4];
+        public fixed uint VboId[4];
     }
 
     /// <summary>

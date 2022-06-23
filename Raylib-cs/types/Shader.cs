@@ -75,11 +75,11 @@ namespace Raylib_cs
         /// <summary>
         /// Shader program id
         /// </summary>
-        public uint id;
+        public uint Id;
 
         /// <summary>
         /// Shader locations array (MAX_SHADER_LOCATIONS, int *)
         /// </summary>
-        public int* locs;
+        public int* Locs;
     }
 }
